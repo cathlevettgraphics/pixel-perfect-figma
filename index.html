@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-react-helmet="true" name="twitter:card" content="summary_large_image" />
+  <meta data-react-helmet="true" name="twitter:site" content="@figmadesign" />
+  <meta data-react-helmet="true" name="keywords"
+    content="design,design tools,ux,ui,user experience design,collaboration,design editor,constraints,vectors,vector editor,svg,user interface design" />
+  <meta data-react-helmet="true" name="theme-color" content="#424242" />
+  <meta data-react-helmet="true" property="og:site_name" content="Figma" />
+  <meta data-react-helmet="true" http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta data-react-helmet="true" name="mobile-web-app-capable" content="yes" />
+  <meta data-react-helmet="true" name="google" content="notranslate" />
+  <meta data-react-helmet="true" property="og:title"
+    content="Design, prototype, and gather feedback all in one place with Figma" />
+  <meta data-react-helmet="true" name="description"
+    content="Figma is a free, online UI tool where you can create, collaborate, prototype and handoff all in the same place. Stay in the flow by ideating, creating and collaborating in one end-to-end tool." />
+  <meta data-react-helmet="true" property="og:description"
+    content="Figma is a free, online UI tool where you can create, collaborate, prototype and handoff all in the same place. Stay in the flow by ideating, creating and collaborating in one end-to-end tool." />
+  <meta data-react-helmet="true" property="og:image"
+    content="https://images.ctfassets.net/1khq4uysbvty/2qB7xP5HmqwzYfjPSA8IDm/1f142f031978d2f5a61bc62f84732163/OG-Design.png?w=1200&amp;q=80" />
+  <meta data-react-helmet="true" property="og:image:width" content="1200" />
+  <meta data-react-helmet="true" property="og:image:height" content="630" />
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+
+  <!-- @font-face -->
+  <link rel="stylesheet" href="./fonts/fonts.css">
+  <!-- Font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <script src="https://kit.fontawesome.com/71ab7a738f.js" crossorigin="anonymous"></script>
+
+  <!-- Normalise -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+  <!-- Generics -->
+  <link rel="stylesheet" href="./styles/generic.css">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./styles/style.css">
+
+
+
+  <title>Design, prototype, and gather feedback all in one place with Figma</title>
+</head>
+
+<body>
+
+
+  <header>
+    <nav class="nav-desktop">
+
+      <div class="figma-logo-desktop">
+        <a href="#"><img src="./figma-assets/asset12.svg" alt=""></a>
+      </div>
+
+      <div class="nav-right">
+        <div class="desktop-nav-item features"><a href="#">Features <img src="./figma-assets/asset13.svg" alt=""></a>
+        </div>
+        <div class="dropdown dropdown-features">
+          <ul>
+            <li><a href="#">Design</a></li>
+            <li><a href="#">Prototyping</a></li>
+            <li><a href="#">Design Systems</a></li>
+            <li><a href="#">Collaboration</a></li>
+            <li><a href="#">What's New</a></li>
+            <li><a href="#">Downloads</a></li>
+          </ul>
+        </div>
+
+        <div class="desktop-nav-item enterprise"><a href="#">Enterprise <img src="./figma-assets/asset13.svg"
+              alt=""></a>
+        </div>
+        <div class="dropdown dropdown-enterprise">
+          <ul>
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Contact Sales</a></li>
+          </ul>
+        </div>
+
+        <div class="desktop-nav-item"><a href="https://www.figma.com/pricing/">Pricing</a></div>
+        <div class="desktop-nav-item community"><a href="#">Community <img src="./figma-assets/asset13.svg" alt=""></a>
+        </div>
+        <div class="dropdown dropdown-community">
+
+          <div class="community-drop-container">
+            <h4>Files and templates</h4>
+            <p>1,000+ free files you can duplicate, remix and reuse</p>
+            <img src="./figma-assets/asset14.svg" alt="">
+          </div>
+
+          <div class="community-drop-container">
+            <h4>Plugins</h4>
+            <p>Extend what's possible and automate work</p>
+            <img src=" ./figma-assets/asset15.svg" alt="">
+          </div>
+
+
+          <ul class="community-drop-container list">
+            <li><a href=" #">Events and livestreams</a>
+            </li>
+            <li><a href="#">Best practices</a></li>
+            <li><a href="#">Education program</a></li>
+            <li><a href="#">User Groups</a></li>
+          </ul>
+        </div>
+
+        <div class="desktop-nav-item company"><a href="#">Company <img src="./figma-assets/asset13.svg" alt=""></a>
+        </div>
+        <div class="dropdown dropdown-company">
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Help Center</a></li>
+          </ul>
+        </div>
+
+
+        <div class="desktop-nav-item"><a href="#">Log out</a></div>
+        <div class="desktop-nav-item"><a href="#"><img class="user-logo" src="./figma-assets/asset0.png" alt=""></a>
+        </div>
+      </div>
+
+    </nav>
+
+
+    <nav class="nav-mobile">
+
+      <div class="figma-logo">
+        <a href="#"><img src="./figma-assets/asset12.svg" alt=""></a>
+      </div>
+
+      <div class="nav-right">
+
+        <div class="user-logo">
+          <a href="#"><img src="./figma-assets/asset0.png" alt=""></a>
+        </div>
+
+        <div class="hamburger">
+          <a href="#"><img src="./figma-assets/hamburger.svg" alt=""></a>
+        </div>
+
+      </div>
+    </nav>
+
+    <!-- <div class="dropdown dropdown-features">
+      <ul>
+        <li><a href="#">Design</a></li>
+        <li><a href="#">Prototyping</a></li>
+        <li><a href="#">Design Systems</a></li>
+        <li><a href="#">Collaboration</a></li>
+        <li><a href="#">What's New</a></li>
+        <li><a href="#">Downloads</a></li>
+      </ul>
+    </div> -->
+
+    <!-- <div class="dropdown dropdown-enterprise">
+      <ul>
+        <li><a href="#">Overview</a></li>
+        <li><a href="#">Customers</a></li>
+        <li><a href="#">Contact Sales</a></li>
+      </ul>
+    </div> -->
+
+    <!-- <div class="dropdown dropdown-community">
+      <ul>
+        <li>
+          <h4>Files and templates</h4>
+          <p>1,000+ free files you can duplicate, remix and reuse</p>
+          <img src="./figma-assets/asset 14.svg" alt="">
+        </li>
+        <li>
+          <h4>Plugins</h4>
+          <p>Extend what's possible and automate work</p>
+          <img src=" ./figma-assets/asset 15.svg" alt="">
+        </li>
+      </ul>
+
+      <ul>
+        <li><a href=" #">Events and livestreams</a>
+        </li>
+        <li><a href="#">Best practices</a></li>
+        <li><a href="#">Education program</a></li>
+        <li><a href="#">User Groups</a></li>
+      </ul>
+    </div> -->
+
+    <!-- <div class="dropdown dropdown-enterprise">
+      <ul>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Help Center</a></li>
+      </ul>
+    </div> -->
+
+    <div class="section-container main">
+
+      <div class="content-container-main">
+        <div class="img-container main main-hero">
+          <img src="./figma-assets/asset1.png" alt="">
+        </div>
+
+        <div class="main-text">
+          <h3>Design Features</h3>
+          <h1>It’s time to design on your terms</h1>
+          <p>
+            Figma is the only platform that brings together powerful design features you already love and a more
+            efficient
+            workflow to boot.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <section>
+
+      <div class="section-container secondary easy-design">
+        <div class="img-container desktop-right">
+          <img src="./figma-assets/asset2.gif" alt="">
+        </div>
+
+
+        <div class="content-container secondary">
+
+          <h2> Design for the web made easy</h2>
+          <p class="first-p">Figma was built for the future of web. That’s why you’ll see features you won’t find
+            elsewhere.</p>
+
+
+
+
+          <ul>
+            <li>
+              <p>
+                <span>A modern pen tool:</span> Draw in any direction with Vector Networks. No more merging or needing
+                to connect to
+                the path's original point.
+              </p>
+            </li>
+            <li>
+              <p><span>Instant arc designs:</span> Design clocks, watch screens, or pie charts easily with the Arc
+                tool.
+              </p>
+            </li>
+            <li>
+              <p><span>Be expressive with OpenType:</span> Tap into advanced font features to fully express your
+                brand.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+
+    </section>
+
+    <section>
+      <div class="section-container secondary">
+        <div class="img-container">
+          <img src="./figma-assets/asset3.gif" alt="">
+        </div>
+
+        <div class="content-container design">
+          <!-- <div> -->
+          <h2> Design responsively with Auto Layout</h2>
+          <p class="first-p">Spend more time iterating and less time moving things around.</p>
+          <!-- </div> -->
+
+          <ul>
+            <li>
+              <p>
+                <span>Less manual resizing:</span> Buttons can resize with their text and lists can rearrange themselves
+                when items are
+                moved around.
+              </p>
+            </li>
+            <li>
+              <p>
+                <span>Stretch to fill:</span> Auto Layout components can now stretch left and right (or top and bottom)
+                for easier
+                responsive design.
+              </p>
+            </li>
+            <li>
+              <p>
+                <span>Design speaks development:</span> Auto Layout’s padding, direction, and spacing settings translate
+                directly into
+                code, simplifying developer handoffs.
+              </p>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-container secondary">
+
+        <div class="img-container desktop-right">
+          <img src="./figma-assets/asset4.gif" alt="">
+        </div>
+
+        <div class="content-container automate">
+          <!-- <div> -->
+          <h2>Automate and augment your work with Plugins</h2>
+          <p class="first-p">
+            Remove repetitive tasks, bring in data, and power custom workflows.
+          </p>
+          <!-- </div> -->
+
+          <ul>
+            <li>
+              <p><span>Plugins for everything: </span><a href="">Stock imagery,</a><a
+                  href="https://www.figma.com/community/plugin/738454987945972471"></a> <a
+                  href="https://www.figma.com/community/plugin/733902567457592893/Autoflow">flow diagrams,</a> <a
+                  href="https://www.figma.com/community/plugin/733343906244951586/Color-Blind"> color
+                  accessibility,</a> <a
+                  href="https://www.figma.com/community/plugin/734590934750866002/Chart">charts,</a> <a
+                  href="https://www.figma.com/community/plugin/735098390272716381/Iconify">icons </a>, and more.</p>
+            </li>
+            <li>
+              <p><span>Easy development:</span> If you can build a website, you can build a plugin.</p>
+            </li>
+            <li>
+              <p><span>Private plugins:</span> Organization customers can create and distribute private plugins within
+                their company.</p>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <div class="section-container quote">
+        <div class="content-container quote">
+          <blockquote>
+            <p>
+              I want my team to spend time thinking about high level UX problems, rather than mindlessly repeating busy
+              work. Figma helps them do that.
+            </p>
+
+            <cite>Ellen Beldner, Head of Product Design at StitchFix</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-container secondary">
+        <div class="img-container">
+          <img src="./figma-assets/asset5.gif" alt="">
+        </div>
+
+        <div class="content-container secondary efficient">
+          <!-- <div> -->
+          <h2> Be efficiently consistent and consistently efficient</h2>
+          <p> With your design system in the cloud, all the goodies in your libraries are always one click away.</p>
+          <!-- </div> -->
+
+          <ul>
+            <li>
+              <p>
+                <span>Flexible Styles:</span> Create consistent Styles—color, text, grid, or effect. Apply them to any
+                text or object
+                across all your projects.
+              </p>
+            </li>
+            <li>
+              <p> <span>Design systematically:</span> Speed up design with components. Edit and override on the fly.</p>
+            </li>
+            <li>
+              <p><span>Accessible libraries:</span> A quick search surfaces the assets you seek. Simply drag and drop
+                them into your
+                file.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-container secondary">
+        <div class="img-container desktop-right">
+          <img src="./figma-assets/asset6.gif" alt="">
+        </div>
+
+        <div class="content-container secondary">
+          <!-- <div> -->
+          <h2> Turn developer handoff into a handshake</h2>
+          <p> Bring developers into your process early and often. Let them get the specs and assets they need.</p>
+          <!-- </div> -->
+
+          <ul>
+            <li>
+              <p><span> Unlimited viewers:</span> Invite as many teammates as you want to view and comment (psst, it’s
+                free).</p>
+            </li>
+            <li>
+              <p><span>Inspect design files:</span> Any viewer can grab snippets of generated code for CSS, iOS, and
+                Android.</p>
+            </li>
+            <li>
+              <p> <span>Easy export:</span> Export the exact assets you need in the formats you need them in.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-container list">
+        <div class="content-container-list ">
+          <h2> Built with all the benefits of any good cloud software</h2>
+          <div class="bullet-list">
+            <div class="bullet-item">
+              <img src="./figma-assets/asset7.svg" alt="">
+              <p>Access files anywhere with Internet access</p>
+            </div>
+            <div class="bullet-item">
+              <img src="./figma-assets/asset7.svg" alt="">
+              <p>
+                Goodbye PDFs and outdated exports; share files with a live link
+              </p>
+            </div>
+            <div class="bullet-item">
+              <img src="./figma-assets/asset7.svg" alt="">
+              <p>Never have to save files again with auto-save</p>
+            </div>
+            <div class="bullet-item">
+              <img src="./figma-assets/asset7.svg" alt="">
+              <p>Worry-free editing and collaboration with version history</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-container image-list">
+        <div class="content-container list">
+          <h2> See how Figma can help you design from start to finish</h2>
+
+          <div class="design-process-container">
+            <div class="design-process">
+              <a href="https://www.figma.com/collaboration/"> <img src="./figma-assets/asset8.png" alt=""></a>
+              <h3> Collaboration</h3>
+              <a href="https://www.figma.com/collaboration/">Learn more</a>
+            </div>
+
+            <div class="design-process">
+              <a href="https://www.figma.com/prototyping/"><img src="./figma-assets/asset9.png" alt=""></a>
+              <h3>Prototyping</h3>
+              <a href="https://www.figma.com/prototyping/">Learn more</a>
+            </div>
+
+            <div class="design-process">
+              <a href="https://www.figma.com/design-systems/"> <img src="./figma-assets/asset10.png" alt=""></a>
+              <h3>Design Systems</h3>
+              <a href="https://www.figma.com/design-systems/">Learn more</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <section>
+
+
+      <div class="section-container-social">
+
+
+        <div class="content-container footer">
+
+
+          <div class="social-block-footer">
+            <a href="#"><img src="./figma-assets/asset11.svg" alt="" class="logo-footer"></a>
+
+
+            <ul class="social-icons">
+              <li><a href="https://www.instagram.com/figmadesign/"><img src="./figma-assets/asset16.svg" alt="">
+                  <span class="sr-only desktop-social social-list">Instagram</span></a>
+              </li>
+              <li><a href="https://www.facebook.com/figmadesign"><img src="./figma-assets/asset17.svg" alt="">
+                  <span class="sr-only desktop-social social-list">Facebook</span></a>
+              </li>
+              <li>
+                <a href href="https://twitter.com/figmadesign"><img src="./figma-assets/asset18.svg" alt=""><span
+                    class="sr-only desktop-social social-list">Twitter</span></a>
+            </ul>
+          </div>
+
+
+          <ul class="footer-list">
+            <li>
+              <p>Use Cases</p>
+            </li>
+            <li><a href="https://www.figma.com/ux-design-tool/">UI Design</a></li>
+            <li><a href="https://www.figma.com/ux-design-tool/">UX Design</a></li>
+            <li><a href="https://www.figma.com/prototyping-tool/">Prototyping</a></li>
+            <li><a href="https://www.figma.com/graphic-design-tool/">Graphic Design</a></li>
+            <li><a href="https://www.figma.com/wireframe-tool/">Wireframing</a></li>
+            <li><a href="https://www.figma.com/brainstorming-tool/">Brainstorming</a></li>
+            <li><a href="https://www.figma.com/templates/">Templates</a></li>
+            <li><a href="https://www.figma.com/remote-design/">Remote Design</a></li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="list-head">Explore</p>
+            </li>
+            <li><a href="https://www.figma.com/design/">Design Features</a></li>
+            <li><a href="https://www.figma.com/prototyping/">Prototyping Features</a></li>
+            <li><a href="https://www.figma.com/collaboration/">Collaboration Features</a></li>
+            <li><a href="https://www.figma.com/design-systems/">Design Systems Features</a></li>
+            <li><a href="https://www.figma.com/pricing/">Pricing</a></li>
+            <li><a href="https://www.figma.com/organization/">Figma Organization</a></li>
+            <li><a href="https://www.figma.com/education/">Students and Educators</a></li>
+            <li><a href="https://www.figma.com/customers/">Customers</a></li>
+            <li><a href="https://www.figma.com/security/">Security</a></li>
+            <li><a href="https://www.figma.com/product-integrations/">Integrations</a></li>
+            <li><a href="https://www.figma.com/contact/">Contact</a></li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p>Resources</p>
+            </li>
+            <li><a href="https://www.figma.com/blog/">Blog</a></li>
+            <li><a href="https://www.figma.com/best-practices/">Best Practices</a></li>
+            <li><a href="https://help.figma.com/hc/en-us">Support</a></li>
+            <li><a href="https://www.figma.com/developers">Developers</a></li>
+            <li><a href="https://www.figma.com/downloads/">Downloads</a></li>
+            <li><a href="https://releases.figma.com/">Releases</a></li>
+            <li><a href="https://www.figma.com/careers/">Careers</a></li>
+            <li><a href="https://www.figma.com/about/">About us</a></li>
+            <li><a href="https://www.figma.com/summary-of-policy/">Privacy</a></li>
+            <li><a href="https://status.figma.com/">Status</a></li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p>Compare</p>
+            </li>
+            <li><a href="https://www.figma.com/figma-vs-sketch/">Sketch</a></li>
+            <li><a href="https://www.figma.com/figma-vs-adobe-xd/">Adobe XD</a></li>
+            <li><a href="https://www.figma.com/figma-vs-invision-studio/">Invision Studio</a></li>
+            <li><a href="https://www.figma.com/figma-vs-framer/">Framer</a></li>
+            <li><a href="https://www.figma.com/sketch-alternative/">Design on Windows</a></li>
+          </ul>
+
+        </div>
+      </div>
+
+
+    </section>
+  </footer>
+
+</body>
+
+</html>

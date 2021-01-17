@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'WhyteInktrap-Bold';
+  src: url('WhyteInktrap-Bold-d5fda619e54a4948a42c0f133a4ad5ed.woff2')
+    format('woff2');
+}
+
+@font-face {
+  font-family: 'Whyte-Regular';
+  src: url('Whyte-Regular-412d6af025a4cfe3d36ab0850f3b258f.woff2')
+    format('woff2');
+}
+
+@font-face {
+  font-family: 'Whyte-Bold';
+  src: url('Whyte-Bold-259eea7f642aa1973e3688f57b803286.woff2') format('woff2');
+}
+
+/* @font-face {
+  font-family: 'TEST';
+  src: url('fa-regular-400.woff2') format('woff2');
+} */
